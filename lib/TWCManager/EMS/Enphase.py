@@ -74,7 +74,7 @@ class Enphase:
         self.update()
 
         # Return current generation value
-        return float(self.generatedW)
+        return float(self.comsumedW)
 
     def getGeneration(self):
 
